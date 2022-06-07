@@ -25,6 +25,8 @@ CMIS - Common Management Interface Specification
 CPLD - Complex programmable logic device
 CPU - Central Processing Unit
 CRC - Cyclic Redundancy Code
+CTLE - Continuous Time Linear Equalization
+DFE - Decision Feedback Equalization
 DHCP - Dynamic Host Configuration Protocol
 DHCPV6 - Dynamic Host Configuration Protocol for IPv6
 DLD - Dead Lock Detection
@@ -51,6 +53,7 @@ FCS - Frame Check Sequence
 FD - File Descriptor
 FDB - Forwarding Data Base
 FEC - Forward Error Correction
+FFE - Feed Forward Equalization
 FPGA - Field Programmable Gate Array
 FW  - Firmware
 GCM - Galois Counter Mode
