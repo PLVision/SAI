@@ -18,6 +18,7 @@ CAUI - 100 Gigabit Attachment Unit Interface
 CB - Callback
 CBS - Committed Burst Size
 CCITT - Comite Consultatif International de Telegraphique et Telephonique
+CDR - Clock and Data Recovery
 CFI - Canonical Format Indicator
 CIDR - Classless Inter Domain Routing
 CIR - Committed Information Rate
@@ -37,6 +38,7 @@ DMA - Direct Memory Access
 DNAPT - Destination Network Address Port Translation
 DNAT - Destination Network Address Translation
 DSCP - Differentiated Services Code Point
+DSP - Digital Signal Processors
 DTEL - Data Plane Telemetry
 ECC - Error Correction Code
 ECD - Enhanced Cable Diagnostics
