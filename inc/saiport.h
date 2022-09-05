@@ -2584,7 +2584,7 @@ typedef enum _sai_port_attr_t
     /**
      * @brief Port's serdes signal detected
      *
-     * @type bool
+     * @type sai_port_serdes_values_list_t
      * @flags READ_ONLY
      */
     SAI_PORT_ATTR_SIGNAL_DETECTED,
@@ -2592,7 +2592,7 @@ typedef enum _sai_port_attr_t
     /**
      * @brief Port's CDR locked
      *
-     * @type bool
+     * @type sai_port_serdes_values_list_t
      * @flags READ_ONLY
      */
     SAI_PORT_ATTR_CDR_LOCKED,
@@ -2600,7 +2600,7 @@ typedef enum _sai_port_attr_t
     /**
      * @brief Port's DSP locked
      *
-     * @type bool
+     * @type sai_port_serdes_values_list_t
      * @flags READ_ONLY
      */
     SAI_PORT_ATTR_DSP_LOCKED,
@@ -2608,7 +2608,7 @@ typedef enum _sai_port_attr_t
     /**
      * @brief Port's TX RX ready
      *
-     * @type sai_port_tx_rx_ready_t
+     * @type sai_port_serdes_values_list_t
      * @flags READ_ONLY
      */
     SAI_PORT_ATTR_TX_RX_READY,
@@ -2616,7 +2616,7 @@ typedef enum _sai_port_attr_t
     /**
      * @brief Port's TX RX locked
      *
-     * @type sai_port_tx_rx_locked_t
+     * @type sai_port_serdes_values_list_t
      * @flags READ_ONLY
      */
     SAI_PORT_ATTR_TX_RX_LOCKED,
