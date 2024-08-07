@@ -2582,14 +2582,6 @@ typedef enum _sai_port_attr_t
     SAI_PORT_ATTR_DFE_VALUES,
 
     /**
-     * @brief Port's serdes signal detected
-     *
-     * @type sai_port_serdes_values_list_t
-     * @flags READ_ONLY
-     */
-    SAI_PORT_ATTR_SIGNAL_DETECTED,
-
-    /**
      * @brief Port's CDR locked
      *
      * @type sai_port_serdes_values_list_t
@@ -2620,14 +2612,6 @@ typedef enum _sai_port_attr_t
      * @flags READ_ONLY
      */
     SAI_PORT_ATTR_TX_RX_LOCKED,
-
-    /**
-     * @brief Port's SNR
-     *
-     * @type sai_uint32_t
-     * @flags READ_ONLY
-     */
-    SAI_PORT_ATTR_SNR,
 
     /**
      * @brief Overall TX RX related statuses
