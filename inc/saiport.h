@@ -2667,6 +2667,36 @@ typedef enum _sai_port_attr_t
     /** Custom range base value */
     SAI_PORT_ATTR_CUSTOM_RANGE_START = 0x10000000,
 
+    /**
+     * @brief SyncE recovered clock frequency in Hz
+     *        Set to 0 to disable clock recovery.
+     *
+     * @type sai_uint32_t
+     * @flags CREATE_AND_SET
+     * @default 0
+     */
+    SAI_PORT_ATTR_CUSTOM_RECOVERED_CLOCK_FREQUENCY,
+
+    /**
+     * @brief SyncE recovered clock output pin ID
+     *        Applicable when clock recovery is enabled.
+     *
+     * @type sai_uint32_t
+     * @flags CREATE_AND_SET
+     * @default 0
+     */
+    SAI_PORT_ATTR_CUSTOM_RECOVERED_CLOCK_PIN_ID,
+
+    /**
+     * @brief Lane offset on the port to recover the clock.
+     *        Applicable when clock recovery is enabled.
+     *
+     * @type sai_uint32_t
+     * @flags CREATE_AND_SET
+     * @default 0
+     */
+    SAI_PORT_ATTR_CUSTOM_RECOVERED_CLOCK_LANE_OFFSET,
+
     /** End of custom range base */
     SAI_PORT_ATTR_CUSTOM_RANGE_END
 
